@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #7895CB;
 }
 
 .center {
@@ -15,9 +16,11 @@ html {
 }
 
 header {
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 2rem auto;
   text-align: center;
+  font-weight: bold;
+  color: hsl(233, 37%, 30%);
 }
 
 form {
@@ -30,15 +33,17 @@ input[type="text"] {
   padding: 1rem;
   border-radius: .4rem;
   border: 1px solid #aaa;
+  box-shadow: 0 0 2rem 0 #4A55A2;
 }
 
 input[type="submit"] {
   padding: 1rem;
   font-size: 1.6rem;
   margin-left: 1rem;
-  background: #007bff;
+  background: #4A55A2;
   color: white;
   border: none;
+  box-shadow: 0 0 1rem 0 #4A55A2;
 }
 
 ul {
@@ -53,8 +58,9 @@ ul {
   justify-content: flex-end;
   align-items: center;
   border-radius: .5rem;
-  box-shadow: 0 0 .5rem 0 #333;
+  box-shadow: 0 0 2rem 0 #4A55A2;
   padding: .5rem;
+  background-color: #C5DFF8;
 }
 
 .todo > * {
